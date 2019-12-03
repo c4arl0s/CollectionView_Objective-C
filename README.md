@@ -13,7 +13,7 @@ Collection_Views_Objective-C
 UICollectionViewController *collectionViewController = [[UICollectionViewController alloc] initWithCollectionViewLayout:layout]
 ```
 
-Passing nil produce an exception.
+**Passing nil produce an exception.**
 
 
 
