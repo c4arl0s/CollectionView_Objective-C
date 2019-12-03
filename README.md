@@ -10,7 +10,7 @@ Collection_Views_Objective-C
 # Implementation
 
 ``` objective-c
-UICollectionViewController *collectionViewController = [[UICollectionViewController alloc] initWithCollectionViewLayout:layout]
+UICollectionView *collectionView = [[UICollectionView alloc] initWithCollectionViewLayout:layout]
 ```
 
 **Passing nil produce an exception.**
