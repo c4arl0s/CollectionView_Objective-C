@@ -32,6 +32,11 @@ conform to: UICollectionViewDelegateFlowLayout
 {
   return CGSizeMake(60.0f, 30.0f);
 }
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section
+{
+ return CGSizeMake(60.0f, 30.0f); 
+}
 ```
 
 
