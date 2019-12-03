@@ -11,6 +11,9 @@ Collection_Views_Objective-C
 
 ``` objective-c
 UICollectionView *collectionView = [[UICollectionView alloc] initWithCollectionViewLayout:layout]
+{
+  return CGSizeMake(60.0f, 30.0f);
+}
 ```
 
 **Passing nil produce an exception.**
