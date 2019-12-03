@@ -11,9 +11,6 @@ Collection_Views_Objective-C
 
 ``` objective-c
 UICollectionView *collectionView = [[UICollectionView alloc] initWithCollectionViewLayout:layout]
-{
-  return CGSizeMake(60.0f, 30.0f);
-}
 ```
 
 **Passing nil produce an exception.**
@@ -30,6 +27,9 @@ UICollectionView *collectionView = [[UICollectionView alloc] initWithCollectionV
 
 ``` objective-c
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section
+{
+  return CGSizeMake(60.0f, 30.0f);
+}
 ```
 
 
