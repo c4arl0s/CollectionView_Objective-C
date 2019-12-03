@@ -22,6 +22,11 @@ UICollectionView *collectionView = [[UICollectionView alloc] initWithCollectionV
 
 # Header and Footer Sizing
 
+- headerReferenceSize
+- footerReferenceSize
+
+
+
 # Insets
 
 Describes how the outer edges of a section add padding, this padding affects how sections relate to their optional headers and footers and how sections move apart from each other in general.
