@@ -17,6 +17,9 @@ UICollectionView *collectionView = [[UICollectionView alloc] initWithCollectionV
 
 # Scrool direction
 
+- UICollectionViewScrollDirectionHorizontal
+- UICollectionViewScrollDirectionVertical
+
 # Header and Footer Sizing
 
 # Insets
