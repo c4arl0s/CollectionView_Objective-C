@@ -25,6 +25,9 @@ UICollectionView *collectionView = [[UICollectionView alloc] initWithCollectionV
 - headerReferenceSize
 - footerReferenceSize
 
+``` objective-c
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section
+```
 
 
 # Insets
