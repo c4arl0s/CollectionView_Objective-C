@@ -15,7 +15,7 @@ UICollectionView *collectionView = [[UICollectionView alloc] initWithCollectionV
 
 **Passing nil produce an exception.**
 
-# Scrool direction
+# Scroll direction
 
 - UICollectionViewScrollDirectionHorizontal
 - UICollectionViewScrollDirectionVertical
@@ -28,7 +28,8 @@ Describes how the outer edges of a section add padding, this padding affects how
 
 # Recipe: Basic Collection View Flows
 
-
+- optional headers
+- optional footers
 
 
 
