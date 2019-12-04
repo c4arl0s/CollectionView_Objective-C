@@ -12,8 +12,9 @@ Collection_Views_Objective-C
 # Implementation
 
 ``` objective-c
-UICollectionViewFlowLayout *collectionViewFlowLayout = [[UICollectionViewFlowLayout alloc] init]; collectionViewFlowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    
+UICollectionViewFlowLayout *collectionViewFlowLayout = [[UICollectionViewFlowLayout alloc] init];
+collectionViewFlowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+
 UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:collectionViewFlowLayout];
 collectionView.delegate = self;
 collectionView.dataSource = self;
