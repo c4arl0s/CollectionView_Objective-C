@@ -12,12 +12,11 @@ Collection_Views_Objective-C
 # Implementation
 
 ``` objective-c
-UICollectionViewFlowLayout *collectionViewFlowLayout = [[UICollectionViewFlowLayout alloc] init];
-    collectionViewFlowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+UICollectionViewFlowLayout *collectionViewFlowLayout = [[UICollectionViewFlowLayout alloc] init]; collectionViewFlowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     
-    collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:collectionViewFlowLayout];
-    collectionView.delegate = self;
-    collectionView.dataSource = self;
+UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:collectionViewFlowLayout];
+collectionView.delegate = self;
+collectionView.dataSource = self;
 ```
 
 **Passing nil produce an exception.**
