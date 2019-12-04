@@ -2,6 +2,8 @@
 
 Collection_Views_Objective-C
 
+![Screen Shot 2019-12-03 at 18 08 28](https://user-images.githubusercontent.com/24994818/70100642-f0d7c780-15f7-11ea-9721-9a74876f4edd.png)
+
 # Collection Views Versus Tables Views
 
 - Unlike tables, collections introduce a Layout - a class that specifies how items are placed onscreens. 
