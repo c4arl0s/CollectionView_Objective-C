@@ -77,7 +77,7 @@ Describes how the outer edges of a section add padding, this padding affects how
 
 - The big difference between TableViews and Collection Views is that the position of the cells in a Collection View are not determinated by the view, they are set by a **layout object** that works along with the Collection View to present the cells on the screen. This object is created from a subclass of the **UICollectionViewLayout** class. 
 
-- Collection Views include by default a subclass called **UICollectionViewFlowLayout** that provides a very customizable **grid-like** layout that is usually more than enough for our projects. The layout is called Flow
+- Collection Views include by default a subclass called **UICollectionViewFlowLayout** that provides a very customizable **grid-like** layout that is usually more than enough for our projects. The layout is called **Flow**.
 
 - scrollDirection
 - minimumInteritemSpacing
