@@ -1,4 +1,4 @@
-# Collection_Views_Objective-C
+# CollectionView - Objective-C
 
 Collection_Views_Objective-C
 
