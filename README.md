@@ -47,7 +47,7 @@ conform to: UICollectionViewDelegateFlowLayout
 ```
 
 
-# Insets (something positioned within a larger object)
+# Insets (recuadro) (something positioned within a larger object)
 
 Describes how the outer edges of a section add padding, this padding affects how sections relate to their optional headers and footers and how sections move apart from each other in general.
 
